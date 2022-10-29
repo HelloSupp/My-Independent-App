@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Designing</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="secondpage.css">
+<script src="secondpage.js"></script>
+
+<body>
+    <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+    <center>
+        <br>
+        <h3>What Is Html?</h3>
+        <br>
+        <div>
+            <p>HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.</p>
+        </div>
+
+        <h3>How does it work?</h3>
+        <div>
+            <p>In Html there are a few things you should know. One of them is that there are two tags in html, one opening other closing. Both of these tags together are called a element.</p>
+            <br>
+            <br>
+            <div id="myCarousel" class="carousel slide">
+                <center>
+              
+                <div class="carousel-inner">
+                  <div class="item active">
+                  <img src="HtmlExample.png">
+                  </a>
+                  </div>
+                  
+                  <div class="item">
+                  <img src="HtmlExample2.png">
+                  </a>
+                  </div>
+          
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                   <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+          
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                   <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </center>
+             </div>
+        </div>
+        <h3>Output:</h3>
+        <img style="width: 700px; height: 500px;" src="2022-10-29.png">
+        <br>
+        <br>
+        <p>By creating a bunch of tags in html, you can create a website.</p>
+        <br>
+        <button onclick="next();" class="btn btn-primary">Next</button>
+    </center>
+</body>
